@@ -50,7 +50,7 @@ fun Layout(modifier: Modifier = Modifier){
 @Composable
 fun TampilanHeader(){
     Box(modifier = Modifier.fillMaxWidth()
-        .background(Color.DarkGray)
+        .background(Color.Blue)
         .padding(20.dp)){
         Row {
             Box(contentAlignment = Alignment.BottomEnd){
